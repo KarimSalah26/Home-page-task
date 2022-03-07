@@ -1,0 +1,184 @@
+.jumbotron-bg-img {
+  background-image: url("bridge1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+.jumbotron-text {
+  margin-top: 160px;
+  position: relative;
+}
+.zindex-3 {
+  z-index: 3;
+}
+.zindex-5 {
+  z-index: 5;
+}
+.jumbotron-opacity {
+  background-color: #000000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.jumbotron-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 30px;
+  border: none;
+  top: 0;
+  bottom: 0;
+  font-weight: bold;
+}
+.jumbotron-button-border {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: linear-gradient(to right, #4ed6ff, #6b0294);
+  border-radius: 30px;
+  width: 210px;
+  height: 58px;
+}
+.jumbotron-button:hover {
+  background-color: #2691b100;
+  color: #000000;
+  font-weight: bold;
+}
+.icon-position {
+  margin-top: 20px;
+}
+.aboutus-opacity {
+  background-color: #8a0bdb;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.bar-bg-color {
+  background-image: linear-gradient(to right, #4ed6ff, #6b0294);
+}
+.bar-height {
+  height: 5px;
+}
+.price-wrap {
+  margin-top: 180px;
+}
+.price-card {
+  border: 4px solid #8a0bdb;
+  height: 500px;
+}
+.price-card-text {
+  margin-top: 90px;
+  letter-spacing: 2px;
+}
+.card-title {
+  color: #8a0bdb;
+  font-size: 30px;
+}
+.price-number {
+  color: #8a0bdb;
+  font-size: 35px;
+}
+
+.posrel {
+  position: relative;
+}
+
+.overlay {
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  border: 4px solid rgba(0, 0, 0);
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.portfoverlaytext {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 22%;
+  margin-left: 20%;
+}
+
+.unit:hover .overlay {
+  display: block;
+}
+.card-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 140px;
+  height: 34px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 30px;
+  border: none;
+  top: 0;
+  bottom: 0;
+}
+.card-button-border {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: linear-gradient(to right, #4ed6ff, #6b0294);
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+}
+.card-button:hover {
+  background-color: #2691b100;
+  color: #000000;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(OpenSans-Semibold.ttf);
+}
+.logo-text {
+  font-family: OpenSans-Semibold;
+  font-size: 40px;
+}
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(OpenSans-Regular.ttf);
+}
+.nav-menu {
+  font-family: OpenSans-Regular;
+}
+.jumbotron-bold-text {
+  font-family: OpenSans-Regular;
+  font-size: 50px;
+}
+.portfolio {
+  font-family: OpenSans-Semibold;
+  font-size: 35px;
+}
+.bg-blue {
+  background-color: #6b0294b7 !important;
+}
+
+@media screen and (max-width: 570px) {
+  .jumbotron-text {
+    margin-top: 100px;
+  }
+  .jumbotron-bold-text {
+    font-size: 40px;
+  }
+}
